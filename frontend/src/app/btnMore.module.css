@@ -1,0 +1,19 @@
+.more_button{
+    background-color: rgb(40,86,213);;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding:10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: .4em .6em;
+    cursor: pointer;
+}
+
+.more_button:hover{
+    background-color: rgb(172, 221, 241);
+    opacity: 0.6;
+    transform: scale(1.1);
+    color: black;
+}

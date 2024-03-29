@@ -1,0 +1,149 @@
+.container{
+    width: 100%;
+    height: 32em;
+    background-color: rgb(148, 180, 205);
+    display: flex;
+    flex-direction: row;
+}
+
+.container_info{
+    padding-top: 8em;
+    padding-left:5em;
+    padding-right:4em;
+    width: 50%;
+}
+
+.container div h1{
+    padding-bottom: .3em;
+}
+
+
+.container_info h5{
+  color: rgb(88, 86, 86);
+}
+
+.container_img{
+    padding:0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container_img img{
+    width: 32em;
+    height: 32em;
+}
+
+
+@media (min-width: 802px) and (max-width: 1000px) {
+    .container{
+        width: 100%;
+        height: 40em;
+        background-color: rgb(148, 180, 205);
+
+        display: flex;
+        flex-direction: column;
+    }
+    .container div{
+        padding-top: 3em;
+        padding-left:3em;
+        padding-right:4em;
+        width: 100%;
+    }
+    
+    .container div h1{
+        padding-top: 3em;
+        padding-bottom: .3em;
+    }
+
+    .container_img{
+        padding:0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+  
+    }
+    
+    .container_img img{
+        width: 20em;
+        height: 20em;  
+    }    
+    
+}
+
+@media (min-width: 430px) and  (max-width: 800px){
+    .container{
+        width: 100%;
+        height: 40em;
+        background-image: url("../../public/about1.img");
+        display: flex;
+        flex-direction: column;
+    }
+    .container div{
+        padding-top: 3em;
+        padding-left:3em;
+        padding-right:4em;
+        width: 100%;
+    }
+    
+    .container div h1{
+        padding-top: 3em;
+        padding-bottom: .3em;
+    }
+
+    .container_info h5 {
+        margin: 3em;
+        padding: 3em 4em;
+        color: rgb(255, 255, 255);
+        background-color: rgb(76, 86, 87);
+        opacity: .7;
+        border-radius: 10px;
+        box-shadow: 3px;
+        
+    }
+
+    .container_img{
+        display: none;
+  
+    }
+}
+
+    @media (max-width: 430px){
+        .container{
+            width: 100%;
+            height: 30em;
+            background-image: url("../../public/about1.img");
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .container div{
+            padding-top: 3em;
+            padding-left:3em;
+            padding-right:4em;
+            width: 100%;
+        }
+        
+        .container div h1{
+            padding-top: 3em;
+            padding-bottom: .3em;
+        }
+    
+        .container_info h5 {
+           padding: 1em;
+            color: rgb(255, 255, 255);
+            background-color: rgb(76, 86, 87);
+            opacity: .7;
+            border-radius: 10px;
+            box-shadow: 3px;
+            
+        }
+    
+        .container_img{
+            display: none;
+      
+        }
+    }
+ 
+ 

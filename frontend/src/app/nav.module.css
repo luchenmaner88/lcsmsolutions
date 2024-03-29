@@ -1,0 +1,54 @@
+.nav_bar{   
+ 
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding:1.5em .8em .5em .8em;
+ 
+}
+.nav_bar h2{
+    float: left;
+    color:black;
+    text-align: center;
+
+}
+
+.nav_bar a{
+    text-align: center;
+    color: gray;
+    font-size:medium;
+    padding: 0.3em 0.4em;
+ 
+}
+
+ 
+.nav_wrap{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+ 
+
+.nav_bar a:active{
+ background-color: rgb(114, 114, 117);
+ color: white;
+ scale: 1.1
+}
+ 
+
+@media (max-width: 800px) {
+    .nav_bar{
+        text-align: center;
+    }
+    .nav_wrap{ 
+        width: 100%;
+       display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+     
+}

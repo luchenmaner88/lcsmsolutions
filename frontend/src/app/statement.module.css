@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:10em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url("../../public/flag.png") ;
+}
+
+@media (max-width: 800px) {
+    .container{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height:10em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url("../../public/flag.png") ;
+}
+}

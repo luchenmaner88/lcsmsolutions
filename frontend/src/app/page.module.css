@@ -1,0 +1,28 @@
+.nav{
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+ 
+}
+    
+.main_container{
+ margin-top: 3.5em;
+ animation: 2s smoothShow;
+}
+
+@keyframes smoothShow {
+  0% {
+ 
+    opacity: 0;
+  }
+  50% {
+ 
+    opacity: 0.5;
+  }
+  100% {
+    
+    opacity: 1;
+  }
+}
+
+ 
