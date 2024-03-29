@@ -26,7 +26,7 @@ export default function Contact(){
         const data =  {name,email,htmlMessage};
  
 
-         axios.post('http://localhost:4200/api/sendemail', data).then((response)=>{
+         axios.post('https://lcsmsolutionsbackend.onrender.com/api/sendemail', data).then((response)=>{
             if(response.status==200){
                 console.log(response);
                 setName("");
