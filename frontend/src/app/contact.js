@@ -7,6 +7,7 @@ import { useState } from "react";
 export default function Contact(){
 
     const [name, setName]=useState('');
+    const [phone, setPhone]=useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [notify, setNotify] = useState('');
@@ -18,6 +19,7 @@ export default function Contact(){
         e.preventDefault();
         const htmlMessage = ` 
         <h3> From: ${email} </h3>
+        <h3> Phone: ${phone} </h3>
         <p> Hello LSCM Solutions:</p> 
         <p> ${message} </p>
         <p>Best Regards,</p>
@@ -30,6 +32,7 @@ export default function Contact(){
             if(response.status==200){
                 console.log(response);
                 setName("");
+                setPhone("");
                 setEmail("");
                 setMessage("");
                 setNotify(" Thank you for contacting us, we will reach you back shortly")
@@ -54,7 +57,12 @@ export default function Contact(){
                     <input id="name" name="name"  type='text' placeholder='Name' 
                     value={name}
                     onChange={(e) => setName(e.target.value)} required></input>
-
+                </div>
+                <div className={styles.form_field}>
+                    <input id="phone" name="phone" type='tel' placeholder='Phone'
+                     value={phone}
+                     onChange={(e) => setPhone(e.target.value)}
+                     required ></input>
                 </div>
                 <div className={styles.form_field}>
                     <input id="email" name="email" type='email' placeholder='Email'
