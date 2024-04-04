@@ -32,7 +32,7 @@ export default function Nav(){
     return (
       <nav className={styles.nav_bar}>
 
-          <h3>LCSMSolutions</h3>
+          <h3>LCSM Solutions</h3>
         
           <div className={styles.nav_wrap}>
         
