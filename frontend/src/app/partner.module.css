@@ -73,6 +73,7 @@
         flex-wrap: wrap;
         list-style-type: none;
         height: 100em;
+        justify-content: left;
     }
     .partner_name li{
         text-align: left;
@@ -86,7 +87,7 @@
         display: flex;
         flex-direction: column;
         height: 60em;
-        justify-content: left;
+        
        
    
     }
