@@ -8,24 +8,21 @@ export default function Partner() {
             <div className={styles.partner_name_detail}>
                 <div>
                     <img src="work.img"></img>
-                    <h4>Expertise in transforming challenges into bridging industries</h4>
-                    <h6>Dedicated to excellence, lcsm Solution LLC specializes in leveraging technology to enhance
-                        efficiency and effectiveness in the construction
+                    <h4>Expertise in transforming challenges in opportunities</h4>
+                    <h6>Dedicated to excellence, LCSM Solutions specializes in leveraging technology to enhance efficiency and effectiveness
                     </h6>
                 </div>
                 <div>
                     <img src="money.img"></img>
-                    <h4>Streamlining your logistics operations with advanced revolutionizing construction</h4>
-                    <h6>From planning to execution, our approach ensures that projects are completed on time,
-                        within budget, and above expectations
+                    <h4>Streamlining your logistics operations with efficiency enhancing technology and planning</h4>
+                    <h6>From planning to execution, our approach ensures that projects are completed on time, within budget, and above expectations
                     </h6>
                 </div>
                 <div>
                 <img src="tech.img"></img>
-                    <h4>Customized strategies to navigate the complexities innovating at every step</h4>
+                    <h4>Customized strategies to navigate the complexities encountered throughout a project</h4>
                     <h6>
-                        leveraging cutting-edge technology and insights to redefine project management, enhancing productivity
-                        while ensuring the utmost safty standards
+                        Using technology and planning to ensure safe, productive and streamlined solution no matter how complex the project
                     </h6>
                 </div>
             </div>
