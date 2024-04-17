@@ -43,6 +43,7 @@
     }
     .nav_bar h3{
     color:black !important;
+    width:100%;
     text-align: center;
     display: flex;
     flex-direction: row;
